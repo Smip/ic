@@ -3,12 +3,16 @@ import { CommonModule } from '@angular/common';
 
 import { ShoppingListRoutingModule } from './shopping-list-routing.module';
 import { ShoppingListComponent } from './shopping-list.component';
+import { EditListComponent } from './edit-list/edit-list.component';
+import { SummaryListComponent } from './summary-list/summary-list.component';
+import {SharedModule} from '@shared/shared.module';
 
 @NgModule({
-  declarations: [ShoppingListComponent],
+  declarations: [ShoppingListComponent, EditListComponent, SummaryListComponent],
   imports: [
     CommonModule,
-    ShoppingListRoutingModule
+    ShoppingListRoutingModule,
+    SharedModule
   ]
 })
 export class ShoppingListModule { }
