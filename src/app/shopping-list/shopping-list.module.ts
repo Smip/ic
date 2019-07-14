@@ -7,9 +7,10 @@ import { EditListComponent } from './edit-list/edit-list.component';
 import { SummaryListComponent } from './summary-list/summary-list.component';
 import {SharedModule} from '@shared/shared.module';
 import {ShoppingListService} from '@shared/services/shopping-list.service';
+import { SortByPipe } from './summary-list/sort-by.pipe';
 
 @NgModule({
-  declarations: [ShoppingListComponent, EditListComponent, SummaryListComponent],
+  declarations: [ShoppingListComponent, EditListComponent, SummaryListComponent, SortByPipe],
   imports: [
     CommonModule,
     ShoppingListRoutingModule,

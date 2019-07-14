@@ -9,7 +9,7 @@ const routes: Routes = [
     children: [
       {
         path: '',
-        loadChildren: './shopping-list/shopping-list.module#ShoppingListModule',
+        loadChildren: () => import('./shopping-list/shopping-list.module').then(m => m.ShoppingListModule)
       },
     ],
   },
