@@ -21,7 +21,7 @@
     "@angular/router": "~8.1.1",
     "@smip/ngx-materialize": "^0.2.6",
     "core-js": "^2.5.4",
-    "lodash": "^4.17.14",
+    "lodash": "^4.17.19",
     "materialize-css": "^1.0.0",
     "ngx-take-until-destroy": "^5.4.0",
     "rxjs": "~6.5.2",
